@@ -3,6 +3,9 @@ You are not allowed to change comments, change symbol or identifiers, and conven
 
 For refactoring, if there is a potential discrepancy of the comments or identifiers after the change is no longer reflected to it, you must inform me for what discrepancies to be optionally addressed.
 
+## Consented actions for simple questions
+When the user asks for questions such as 'how do I build it' or 'how do I package it', you can only answer questions and ask the user whether to proceed, you are not allowed to perform actions yourself just to give grounded responses. Read-only tasks such as searching the web is fine.
+
 ## Node.js / TypeScript / JavaScript
 Check tsconfig.json, package.json, eslint and other configurations to ensure it meets best practices. Crucially, you must also check if the project uses certain package manager (e.g. yarn, pnpm, npm, etc.)
 
