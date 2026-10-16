@@ -1,6 +1,0 @@
-# WARNING: THIS IS ONLY FOR XFCE! FOR XDG DESKTOP PORTALS FIX LIKE FLATPAK
-[Unit]
-Description=Xfce session
-BindsTo=graphical-session.target
-Wants=graphical-session-pre.target
-After=graphical-session-pre.target
