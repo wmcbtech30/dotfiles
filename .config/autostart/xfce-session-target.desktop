@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Start systemd graphical session
+Exec=sh -c "dbus-update-activation-environment --systemd --all && systemctl --user start xfce-session.target"
+X-XFCE-Autostart-Override=true
