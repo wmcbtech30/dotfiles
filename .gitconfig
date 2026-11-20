@@ -2,6 +2,13 @@
 	autoSetupRemote = true
 [user]
 	email = buffer.0verfl0w1030@gmail.com
-	name = zavocc
+	name = wmcbtech30
+	signingKey = /c/Users/zavoc/.ssh/github_id_rsa.pub
 [core]
 	autocrlf = false
+[pull]
+	rebase = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
